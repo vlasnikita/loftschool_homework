@@ -28,9 +28,9 @@ export default class App extends Component {
 					value={newsInput}
 				/>
 				<button onClick={this.handleNewPost} >Добавить</button>
-				{news.map(post => 
+				{news.map((post, i) => 
 					<NewsPost 
-						key={post.text} 
+						key={i} 
 						text={post.text}
 					/>
 				)}
