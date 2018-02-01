@@ -4,7 +4,6 @@ import './VideoPlayer.css'
 
 export default class VideoPlayer extends Component {
     render() {
-        console.log(video)
         return (
             <div className="video-player">
                 <video 
