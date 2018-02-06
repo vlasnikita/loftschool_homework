@@ -1,0 +1,21 @@
+.Search__form {
+    padding-bottom: 20px;
+}
+
+.Search__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.t-search-result {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.t-preview {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
